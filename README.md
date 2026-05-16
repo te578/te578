@@ -18,8 +18,4 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ---
 
-## 📊 GitHub Stats
 
-![te578's GitHub stats](https://github-readme-stats.vercel.app/api?username=te578&show_icons=true&theme=tokyonight&hide_border=true)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=te578&layout=compact&theme=tokyonight&hide_border=true)
