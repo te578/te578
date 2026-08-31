@@ -22,22 +22,22 @@ Readme · MD
  
 ### 実装している主な要素
  
-**マルチテナント**
+###  マルチテナント
 URL パスベースのテナント識別と、スキーマ分離による DB ルーティング。テナント単位で Flyway マイグレーションを適用。
  
-**認証基盤**
+### 認証基盤
 JWT（アクセストークン / リフレッシュトークン）。リフレッシュトークンは DB で管理（token_hash, family_id, expires_at, revoked_at）し、ブラウザ側は HttpOnly Cookie で保持。パスワードは BCrypt でハッシュ化。
  
-**テスト**
+### テスト
 JUnit 5 による単体テスト → Testcontainers による実 DB を用いた結合テスト → MockMvc による API テスト、という段階構成。
  
-**API ドキュメント**
+### API ドキュメント
 springdoc-openapi による OpenAPI / Swagger UI の自動生成。`@ControllerAdvice` で例外ハンドリングを統一。
  
-**インフラ / CI/CD**
+### インフラ / CI/CD
 Terraform で VPC・サブネット・NAT Gateway・ALB・ECS・RDS・セキュリティグループを管理（tfstate は S3 バックエンド）。GitHub Actions から IAM OIDC フェデレーションでキーレス認証し、ECR / ECS へデプロイ。
  
-**設計ドキュメント**
+### 設計ドキュメント
 主要な技術選定（ECS Fargate の採用理由、CI/CD 基盤の選定理由など）を ADR（Nygard テンプレート）として記録しています。
  
 > 現在は認証基盤・マルチテナント基盤・インフラが構築済みで、プロジェクト管理のコア機能を実装中です。
