@@ -16,9 +16,9 @@ Readme · MD
  
 | リポジトリ | 内容 | 主な技術 |
 |---|---|---|
-| [portfolio-backend](https://github.com/te578/portfolio-backend) | REST API サーバー | Java 25 / Spring Boot 3.5 / PostgreSQL 16 / MyBatis / Flyway |
-| [web](https://github.com/te578/web) | フロントエンド | Next.js / TypeScript |
-| [infra-codex](https://github.com/te578/infra-codex) | AWS インフラ (IaC) | Terraform / ECS Fargate / RDS / ALB |
+| [portfolio-web](https://github.com/te578/web) | フロントエンド | Next.js / TypeScript |
+| [portfolio-api](https://github.com/te578/portfolio-backend) | REST API サーバー | Java 25 / Spring Boot 3.5 / PostgreSQL 16 / MyBatis / Flyway |
+| [portfolio-infra](https://github.com/te578/infra-codex) | AWS インフラ (IaC) | Terraform / ECS Fargate / RDS / ALB |
  
 ### 実装している主な要素
  
