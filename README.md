@@ -6,6 +6,7 @@ Readme · MD
 現在は電力業界向けの SaaS の開発・運用に携わっています。
  
 - 🏢 業務: 二要素認証・アカウントロック機能の設計実装 / 外部連携API開発 / WAF・CloudWatch によるセキュリティ運用
+- Angular + .net + SQLserver
 - 🔨 個人開発: Spring Boot + Next.js + PostgreSQL でマルチテナント型 BtoB SaaS「TaskFlow」を構築中
 - ☁️ AWS Certified Solutions Architect – Associate
 ---
