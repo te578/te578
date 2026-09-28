@@ -11,7 +11,7 @@ Readme · MD
 - ☁️ AWS Certified Solutions Architect – Associate
 ---
  
-## 🚀 ポートフォリオ　TaskFlow — マルチテナント型 BtoB SaaS
+## 🚀 ポートフォリオ　TaskFlow
  
 企業内プロジェクト管理ツール。認証基盤・マルチテナント基盤から、IaC・CI/CD パイプラインまで一気通貫で構築しています。
  
